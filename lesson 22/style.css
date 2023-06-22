@@ -1,0 +1,10 @@
+.class {
+    padding: 25px 25px 0px 25px;
+    height: 100px;
+    overflow: auto;
+    max-width: 50%vh;
+    max-height: 50%vh;
+    max-width: 50%vw;
+    max-height: 50%vw;
+}
+}

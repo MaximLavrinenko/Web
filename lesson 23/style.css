@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 50px 100px;
+    height: 50vh;
+}
+
+.block {
+    padding: 100px 100px;
+    height: 100vh;
+    height: 75%;
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    border-radius: 5px;
+
+
+    background: url("frog.jpeg") 50% 50%/ auto 300px, linear-gradient(#589368, #57c045 );
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.wrapper-1 {
+    padding: 100px 100px;
+    height: 50vh;
+}
+
+.block-1 {
+    padding: 100px 100px;
+    height: 100vh;
+    height: 75%;
+    box-shadow: 0 0 10px rgb(83, 83, 83);
+    border-radius: 5px;
+
+
+    background:  url("frog.jpeg") center center / auto 300px no-repeat, linear-gradient(#589368 , #57c045 );
+}
