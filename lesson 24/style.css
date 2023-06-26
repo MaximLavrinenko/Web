@@ -1,0 +1,13 @@
+
+.block {
+    width: 100px;
+    height: 400px;
+    background: green;
+    border-radius: 5px;
+
+    position: sticky;
+    top: 0;
+    bottom: 100px;
+    right: 50px;
+    left: 50%;
+}
