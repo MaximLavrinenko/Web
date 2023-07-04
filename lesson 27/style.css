@@ -1,0 +1,58 @@
+.block {
+    margin: 15px 5vw;
+    background-color: rgba(118, 118, 118, 0.568);
+    border-radius: 20px;
+}
+
+.text { 
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+    font-family: 'Courier New', Courier, monospace, serif;
+    line-height: 90px;
+    font-weight: bold;
+    display: block;
+
+
+    animation: text-color 2s infinite alternate;
+}
+
+.block-1 {
+    margin: 15px 5vw;
+    background-color: rgba(118, 118, 118, 0.568);
+    border-radius: 20px;
+}
+
+.text-1 { 
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+    font-family: 'Courier New', Courier, monospace, serif;
+    line-height: 90px;
+    font-weight: bold;
+    display: block;
+
+    animation: text-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.text:hover, .text-1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes text-color {
+    0% {
+        color: red;
+    }
+
+    50% {
+        transform: translate(-50px);
+    }
+
+    100% {
+        color: black;
+    }
+
+}
