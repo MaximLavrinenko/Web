@@ -1,0 +1,24 @@
+.contain {
+    width: 98%;
+    margin: 15px 0px 15px 15px;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-rows: repeat(2, auto);
+    grid-template-columns: auto auto minmax(100px, 200px) auto auto; */
+
+    grid-template: repeat(2, auto) /repeat(2, auto) minmax(100px, 200px) repeat(2, auto);
+}
+
+
+
+
+.item {
+    background-color: green;
+    font-size: 40px;
+    text-align: center;
+    border: 2.5px solid black;
+    padding: .48em;
+    font-family: sans-serif;
+}
