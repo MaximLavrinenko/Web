@@ -1,0 +1,43 @@
+.title {
+    background-color: rgb(0, 255, 13);
+    width: 10px;
+    height: 10px;
+    border-radius: 1rem;
+
+    margin-left: 50px;
+
+    position: relative;
+    top: 200px;
+    left: 400px;
+    bottom: 0px;
+    right: 0px;
+
+    
+}
+
+.title::before {
+    content: "";
+    display: block;
+    background-color: rgb(7, 37, 229);
+    width: 10px;
+    height: 10px;
+    border-radius: 1rem;
+
+    position: absolute;
+    left: -100%;
+    margin: auto;
+}
+
+
+.title::after {
+    content: "";
+    display: block;
+    background-color: rgb(255, 2, 2);
+    width: 10px;
+    height: 10px;
+    border-radius: 1rem;
+
+    position: absolute;
+    left: 100%;
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: blueviolet;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: .6em;
+
+    width: 98%;
+    height: 70px;
+    margin: 15px 15px 15px 15px;
+
+    background-color: aqua;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.menu__item:first-child>a:hover  {
+    color: red;
+}
